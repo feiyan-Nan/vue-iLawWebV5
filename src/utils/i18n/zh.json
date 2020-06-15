@@ -1,0 +1,17 @@
+{
+    "FOR_ALPHA": "为了Alpha",
+    "PROJECT_NAME": "项目名称",
+    "PATTERN_NOT_RIGHT": "格式不正确",
+    "NOT_EMPTY": "不能为空",
+    "ONLY_NUM": "仅限数字",
+    "OLNY_NUM_ALPHABET": "仅限数字和字母",
+    "NO_SPACES": "不能包含空格",
+    "NO_EMOJI": "不能包含Emoji",
+    "NO_SPECIAL_CHARACTER": "不能包含特殊字符",
+    "WELCOME": "欢迎您，",
+    "WAITING_ENTER": "正在进入Alpha......",
+    "VERIFY_CODE_NEED": "请输入验证码",
+    "VERIFY_CODE": "验证码",
+    "CONFIRM": "确认",
+    "MOBILE_PATTERN_NOT_RIGHT": "手机号格式错误"
+}

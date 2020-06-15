@@ -1,0 +1,44 @@
+.my__task {
+  width: 60.5rem;
+  padding: 0 1rem;
+  margin: auto;
+  .my__task__header {
+    @include flex(row, flex-start, center);
+    position:relative;
+    padding-bottom: 1.25rem;
+    .header__filter-line {
+      width: 0.125rem;
+      height: 0.875rem;
+      margin-left: 0.875rem;
+      @extend %bg-gray-normal;
+    }
+    [class*=ibass] {
+      @extend %f-extra-small;
+      margin-left: 5px;
+    };
+    [class*=ib__task-filter-]{
+        margin-right: 20px;
+    }
+    .hater__opearte {
+      @include flex(row,center,center);
+      position: absolute;
+      right: 1rem;
+      [class*=ibass] {
+        @extend %f-extra-small;
+        margin-left: 20px;
+      };
+      .header__group-collapse {
+        @include flex(row,center,center);
+        @extend %f-small;
+        transition: all 0.2s;
+        &:hover {
+          color: $theme-color-light;
+        }
+        .ibass-minus-square{
+          margin-right:0.5rem;
+          color: $theme-color-light;
+        }
+      }
+    }
+  }
+}
