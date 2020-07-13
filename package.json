@@ -93,7 +93,7 @@
     "shelljs": "^0.7.6",
     "sinon": "^4.0.0",
     "sinon-chai": "^2.8.0",
-    "standard-version": "^4.4.0",
+    "standard-version": "^8.0.1",
     "stylus-loader": "^3.0.2",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
